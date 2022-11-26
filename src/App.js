@@ -6,7 +6,7 @@ import Footer from "./Footer.js";
 
 function App() {
   return (
-    <div className="w-fit h-fit bg-black">
+    <div className="w-fit h-fit bg-white">
       <Nav />
       <Content />
     </div>
