@@ -15,7 +15,7 @@ function Content() {
         allowfullscreen></iframe> */}
       <img
         src={auroraPic}
-        className="max-h-[480px] shadow-white hover:scale-105 hover:shadow-white transition duration-200 ease-in-out"
+        className="max-h-[480px] shadow-white transition duration-200 ease-in-out"
       ></img>
     </div>
   );
