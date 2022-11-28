@@ -6,9 +6,12 @@ import Footer from "./Footer.js";
 
 function App() {
   return (
-    <div className="w-fit h-fit bg-white">
+    <div className="w-fit h-fit">
       <Nav />
       <Content />
+      <Content className="bg-black" />
+      <Content className="bg-white" />
+      <Content className="bg-black" />
     </div>
   );
 }

@@ -18,7 +18,7 @@ function Nav() {
           <li className="cursor-pointer hover:text-black ">home</li>
           <li className="cursor-pointer hover:text-black">about</li>
           <li className="cursor-pointer hover:text-black">work</li>
-          <li className="cursor-pointer hover:text-black">hobby</li>
+          <li className="cursor-pointer hover:text-teal-400">hobby</li>
         </ul>
       </div>
     </div>

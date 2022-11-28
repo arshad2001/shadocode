@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import auroraPic from "./assets/aurora.jpg";
 
-function Content(props) {
+function Work() {
   return (
     <div className="w-screen h-screen px-12 grid place-content-center">
       {/* <iframe
@@ -21,4 +21,4 @@ function Content(props) {
   );
 }
 
-export default Content;
+export default Work;
