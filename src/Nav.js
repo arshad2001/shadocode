@@ -15,7 +15,9 @@ function Nav() {
       </div>
       <div className="justify-self-end">
         <ul className="h-full flex space-x-4 font-medium ">
-          <li className="cursor-pointer hover:text-black ">home</li>
+          <li className="cursor-pointer hover:text-black" src="./Work.js">
+            home
+          </li>
           <li className="cursor-pointer hover:text-black">about</li>
           <li className="cursor-pointer hover:text-black">work</li>
           <li className="cursor-pointer hover:text-teal-400">hobby</li>

@@ -3,15 +3,13 @@ import "./App.css";
 import Nav from "./Nav.js";
 import Content from "./Content.js";
 import Footer from "./Footer.js";
+import Work from "./Work.js";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   return (
-    <div className="w-fit h-fit">
-      <Nav />
-      <Content />
-      <Content className="bg-black" />
-      <Content className="bg-white" />
-      <Content className="bg-black" />
+    <div >
+      <Work />
     </div>
   );
 }
