@@ -33,7 +33,7 @@ function Content(props) {
         </a>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 md:h-screen h-fit py-12">
+      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-12">
         <ContentBlocks />
         <ContentBlocks />
         <ContentBlocks />
