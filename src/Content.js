@@ -5,10 +5,10 @@ import ContentBlocks from "./ContentBlocks";
 
 function Content(props) {
   return (
-    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center md:pt-0 pt-12">
+    <div className=" w-screen min-h-[1440px] h-fit grid place-content-center md:pt-0 pt-12">
       <div
         id="segment-1"
-        className="w-screen md:h-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-14"
       >
         {/* <iframe
           width="560"
@@ -39,16 +39,11 @@ function Content(props) {
         <ContentBlocks />
         <ContentBlocks />
         <ContentBlocks />
-        <ContentBlocks />
-        <ContentBlocks />
-        <ContentBlocks />
-        <ContentBlocks />
-        <ContentBlocks />
       </div>
 
       <div
         id="segment-blank"
-        className="w-screen h-screen grid place-content-center"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center"
       >
         <img
           src={auroraPic}
