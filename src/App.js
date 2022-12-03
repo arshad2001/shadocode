@@ -10,8 +10,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Content />
-      <Footer />
     </div>
   );
 }
