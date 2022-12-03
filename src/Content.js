@@ -5,10 +5,10 @@ import ContentBlocks from "./ContentBlocks";
 
 function Content(props) {
   return (
-    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center">
+    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center py-12">
       <div
         id="segment-1"
-        className="w-screen h-screen grid place-content-center md:px-12 px-6 justify-start"
+        className="w-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
       >
         {/* <iframe
           width="560"
@@ -26,14 +26,14 @@ function Content(props) {
       </div>
       <div
         id="segment-2"
-        className="w-screen h-fit grid place-content-center md:px-12 px-8 md:py-12 py-8 justify-center"
+        className="w-screen h-fit grid place-content-center md:px-12 px-8 md:py-12 justify-center py-8"
       >
         <a className="md:text-[30px] text-[21px] text-black dark:text-white">
-          and here are a few of my projects...
+          and here are a few of my projects 👇👇👇
         </a>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 ">
+      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-12">
         <ContentBlocks />
         <ContentBlocks />
         <ContentBlocks />
@@ -48,11 +48,11 @@ function Content(props) {
 
       <div
         id="segment-blank"
-        className="w-screen h-screen grid place-content-center"
+        className="w-screen h-fit grid place-content-center"
       >
         <img
           src={auroraPic}
-          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out hover:rotate-3"
+          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out hover:rotate-3 py-8"
         ></img>
       </div>
     </div>

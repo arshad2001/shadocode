@@ -10,11 +10,11 @@ function Nav() {
       <div className="items-center justify-self-start flex cursor-pointer dark:text-white text-black ">
         <img
           src={shadocodeLogoBlack}
-          className="md:max-w-[28px] max-w-[20px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
+          className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
         ></img>
         <img
           src={shadocodeLogoWhite}
-          className="md:max-w-[28px] max-w-[20px] md:mr-2 mr-[4px] hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
+          className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
         ></img>
         <a className="hidden md:block justify-self-start md:w-fit w-[54px]">
           welcome to
