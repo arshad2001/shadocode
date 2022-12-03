@@ -6,7 +6,7 @@ import shadocodeLogoWhite from "./assets/shadocode-logo-white.png";
 
 function Nav() {
   return (
-    <div className=" w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[8px] fixed z-50 ">
+    <div className=" w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[12px] fixed z-50 ">
       <div className="items-center justify-self-start flex cursor-pointer dark:text-white text-black ">
         <img
           src={shadocodeLogoBlack}
@@ -16,12 +16,14 @@ function Nav() {
           src={shadocodeLogoWhite}
           className="md:max-w-[28px] max-w-[16px] md:mr-2 mr-[4px] hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
         ></img>
-        <a className="justify-self-start md:w-fit w-[54px]">welcome to</a>
-        <a className="md:ml-2 ml-0 justify-self-start font-semibold hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1 hover:underline underline-offset-2 transition duration-200 ease-in-out">
+        <a className="hidden md:block justify-self-start md:w-fit w-[54px]">
+          welcome to
+        </a>
+        <a className="hidden md:block md:ml-2 ml-0 justify-self-start font-semibold hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1 hover:underline underline-offset-2 transition duration-200 ease-in-out">
           shadocode
         </a>
       </div>
-      <div className="justify-self-end hidden md:block">
+      <div className="justify-self-end">
         <ul className="h-full flex space-x-4 font-medium text-gray-500 ">
           <li
             className="cursor-pointer hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1"
@@ -40,7 +42,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-      <div className="justify-self-end block md:hidden hover:scale-110 transition duration-300 ease-in-out">
+      {/* <div className="justify-self-end block md:hidden hover:scale-110 transition duration-300 ease-in-out">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -55,7 +57,7 @@ function Nav() {
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           />
         </svg>
-      </div>
+      </div> */}
       {/* <div className="justify-self-end block md:hidden">
         <img
           src={shadocodeLogo}
