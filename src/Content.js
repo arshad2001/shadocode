@@ -5,7 +5,7 @@ import ContentBlocks from "./ContentBlocks";
 
 function Content(props) {
   return (
-    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center pt-12">
+    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center md:pt-0 pt-12">
       <div
         id="segment-1"
         className="w-screen md:h-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
