@@ -29,7 +29,7 @@ function Content(props) {
         className="w-screen h-fit grid place-content-center md:px-12 px-8 md:py-12 py-8 justify-center"
       >
         <a className="md:text-[30px] text-[21px] text-black dark:text-white">
-          and here are a view of my projects...
+          and here are a few of my projects...
         </a>
       </div>
 
