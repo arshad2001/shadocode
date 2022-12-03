@@ -4,7 +4,7 @@ import auroraPic from "./assets/aurora.jpg";
 
 function Content(props) {
   return (
-    <div className="w-screen h-fit grid place-content-center">
+    <div className="bg-white dark:bg-black w-screen h-fit grid place-content-center">
       <div
         id="segment-1"
         className="w-screen h-screen grid place-content-center justify-start px-12"
@@ -17,7 +17,7 @@ function Content(props) {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe> */}
-        <a className="text-[50px]">
+        <a className="md:text-[50px] text-[31px] text-black dark:text-white">
           Hi! my name is Arshad ✌ <br></br>I am a Muslim 🕋 <br></br>
           UI/UX designer-enthusiast ✍ <br></br>& frontend developer 👨‍💻<br></br>
           from Indonesia 💖👊

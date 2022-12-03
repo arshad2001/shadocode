@@ -5,7 +5,7 @@ import shadocodeLogo from "./assets/shadocode-logo.png";
 
 function Nav() {
   return (
-    <div className="bg-white dark:bg-black bg-white w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[10px] fixed z-50">
+    <div className="bg-white dark:bg-black  w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[10px] fixed z-50">
       <div className="items-center justify-self-start flex cursor-pointer dark:text-white text-black ">
         <img
           src={shadocodeLogo}
