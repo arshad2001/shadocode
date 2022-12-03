@@ -8,7 +8,7 @@ function Content(props) {
     <div className=" w-screen h-min-[1440px] h-fit grid place-content-center pt-12">
       <div
         id="segment-1"
-        className="w-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
+        className="w-screen md:h-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
       >
         {/* <iframe
           width="560"
@@ -33,7 +33,7 @@ function Content(props) {
         </a>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-12">
+      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 md:h-screen h-fit py-12">
         <ContentBlocks />
         <ContentBlocks />
         <ContentBlocks />
