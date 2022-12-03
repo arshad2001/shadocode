@@ -16,7 +16,7 @@ function Nav() {
           shadocode
         </a>
       </div>
-      <div className="justify-self-end hidden md:block">
+      <div className="justify-self-end ">
         <ul className="h-full flex space-x-4 font-medium ">
           <li className="cursor-pointer hover:text-black" src="./Work.js">
             home
