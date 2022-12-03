@@ -4,7 +4,7 @@ import auroraPic from "./assets/aurora.jpg";
 
 function Content(props) {
   return (
-    <div className="bg-white dark:bg-black w-screen h-fit grid place-content-center">
+    <div className="bg-white dark:bg-black w-screen h-min-[1080px] grid place-content-center">
       <div
         id="segment-1"
         className="w-screen h-screen grid place-content-center justify-start px-12"
@@ -29,7 +29,7 @@ function Content(props) {
       >
         <img
           src={auroraPic}
-          className="max-h-[480px] shadow-white transition duration-200 ease-in-out"
+          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out"
         ></img>
       </div>
     </div>
