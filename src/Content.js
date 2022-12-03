@@ -4,10 +4,10 @@ import auroraPic from "./assets/aurora.jpg";
 
 function Content(props) {
   return (
-    <div className="bg-white dark:bg-black w-screen h-min-[1440px] h-fit grid place-content-center">
+    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center">
       <div
         id="segment-1"
-        className="w-screen h-screen grid place-content-center px-12 "
+        className="w-screen h-screen grid place-content-center px-12 justify-start"
       >
         {/* <iframe
           width="560"
@@ -25,6 +25,14 @@ function Content(props) {
       </div>
       <div
         id="segment-2"
+        className="w-screen h-fit grid place-content-center px-12 justify-end"
+      >
+        <a className="md:text-[30px] text-[21px] text-black dark:text-white">
+          and here are a view of my projects...
+        </a>
+      </div>
+      <div
+        id="segment-blank"
         className="w-screen h-screen grid place-content-center"
       >
         <img
