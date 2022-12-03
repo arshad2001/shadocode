@@ -5,7 +5,7 @@ import ContentBlocks from "./ContentBlocks";
 
 function Content(props) {
   return (
-    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center py-12">
+    <div className=" w-screen h-min-[1440px] h-fit grid place-content-center pt-12">
       <div
         id="segment-1"
         className="w-screen h-fit grid place-content-center md:px-12 px-6 justify-start py-8"
@@ -48,11 +48,11 @@ function Content(props) {
 
       <div
         id="segment-blank"
-        className="w-screen h-fit grid place-content-center"
+        className="w-screen h-screen grid place-content-center"
       >
         <img
           src={auroraPic}
-          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out hover:rotate-3 py-8"
+          className="md:max-h-[480px] max-h-[300px] shadow-white transition duration-200 ease-in-out hover:rotate-3 md:my-0 my-4"
         ></img>
       </div>
     </div>
