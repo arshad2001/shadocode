@@ -5,14 +5,14 @@ import shadocodeLogo from "./assets/shadocode-logo.png";
 
 function Nav() {
   return (
-    <div className=" w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[10px] fixed z-50">
+    <div className=" w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[8px] fixed z-50">
       <div className="items-center justify-self-start flex cursor-pointer dark:text-white text-black ">
         <img
           src={shadocodeLogo}
-          className="md:max-w-[28px] mr-2 max-w-[20px]"
+          className="md:max-w-[28px] max-w-[16px] md:mr-2 mr-[4px]"
         ></img>
-        <a className="justify-self-start md:w-fit w-[61px]">welcome to</a>
-        <a className="ml-2 justify-self-start font-semibold hover:text-teal-400 ">
+        <a className="justify-self-start md:w-fit w-[54px]">welcome to</a>
+        <a className="md:ml-2 ml-0 justify-self-start font-semibold hover:text-teal-400 ">
           shadocode
         </a>
       </div>
