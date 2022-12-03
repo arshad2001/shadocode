@@ -4,10 +4,10 @@ import auroraPic from "./assets/aurora.jpg";
 
 function Content(props) {
   return (
-    <div className="bg-white dark:bg-black w-screen h-min-[1080px] grid place-content-center">
+    <div className="bg-white dark:bg-black w-screen h-min-[1440px] h-fit grid place-content-center">
       <div
         id="segment-1"
-        className="w-screen h-screen grid place-content-center justify-start px-12"
+        className="w-screen h-screen grid place-content-center px-12 "
       >
         {/* <iframe
           width="560"
