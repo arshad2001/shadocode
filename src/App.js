@@ -8,8 +8,10 @@ import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   return (
-    <div >
-      <Work />
+    <div>
+      <Nav />
+      <Content />
+      <Footer />
     </div>
   );
 }
