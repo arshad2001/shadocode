@@ -5,10 +5,10 @@ import ContentBlocks from "./ContentBlocks";
 
 function Content(props) {
   return (
-    <div className=" w-screen min-h-[1440px] h-fit grid place-content-center md:pt-0 pt-12">
+    <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
       <div
         id="segment-1"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start md:py-14 py-0"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-16"
       >
         {/* <iframe
           width="560"
@@ -26,14 +26,14 @@ function Content(props) {
       </div>
       <div
         id="segment-2"
-        className="w-screen h-fit grid place-content-center md:px-12 px-8 md:py-12 justify-center py-8"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-8 md:py-12 justify-center py-8"
       >
         <a className="md:text-[30px] text-[21px] text-black dark:text-white">
           and here are a few of my projects 👇👇👇
         </a>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-12">
+      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-16">
         <ContentBlocks />
         <ContentBlocks />
         <ContentBlocks />
