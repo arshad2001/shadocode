@@ -37,7 +37,7 @@ function Content(props) {
       >
         <img
           src={auroraPic}
-          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out"
+          className="md:max-h-[480px] max-h-[320px] shadow-white transition duration-200 ease-in-out hover:rotate-3"
         ></img>
       </div>
     </div>
