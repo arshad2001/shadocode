@@ -8,7 +8,7 @@ function Content(props) {
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
       <div
         id="segment-1"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-16"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-16 -mt-2"
       >
         {/* <iframe
           width="560"
