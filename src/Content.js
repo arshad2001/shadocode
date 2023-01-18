@@ -23,8 +23,11 @@ function Content(props) {
           designer-enthusiast ✍ <br></br>& frontend developer 👨‍💻<br></br>
           from the beloved Indonesia 💖👊
         </a>
-        <a href="https://drive.google.com/drive/folders/10c60Na-1jVS0SIjt0GgHOpjNSxjG6Kz0?usp=share_link">
-          Here is my portofolio!
+        <a
+          className="md:text-[50px] text-[31px] text-black dark:text-white hover:text-teal-300 w-fit"
+          href="https://drive.google.com/drive/folders/10c60Na-1jVS0SIjt0GgHOpjNSxjG6Kz0?usp=share_link"
+        >
+          Here is my CV and Portfolio!
         </a>
       </div>
       <div
