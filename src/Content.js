@@ -23,6 +23,9 @@ function Content(props) {
           designer-enthusiast ✍ <br></br>& frontend developer 👨‍💻<br></br>
           from the beloved Indonesia 💖👊
         </a>
+        <a href="https://drive.google.com/drive/folders/10c60Na-1jVS0SIjt0GgHOpjNSxjG6Kz0?usp=share_link">
+          Here is my portofolio!
+        </a>
       </div>
       <div
         id="segment-2"
