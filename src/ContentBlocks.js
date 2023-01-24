@@ -11,22 +11,26 @@ const portfolioList = [
     id: 1,
     thumbnail: riperAll,
     title: "UI/UX : RiperAll",
+    href: "https://www.figma.com/file/52oBGEDAnr3j8hE49ABkw6/RiperAll---User-Testing?t=ZEXls2uAT0WcUEXV-6",
   },
 
   {
     id: 2,
     thumbnail: webHimatekkom,
     title: "Web : Himatekkom Organization Website",
+    href: "https://www.figma.com/file/rnaguP8MjMPi9KsEQMNb7Y/Website-Himatekkom---Convergence-team-library?node-id=526%3A1197&t=KiB94Yv3e1vHeYKe-0",
   },
   {
     id: 3,
     thumbnail: appLabB201,
     title: "App : Lab B201 Practicum App",
+    href: "https://www.figma.com/file/yGEuHERSAQ36vAxwtx5tQB/Porto---ManagementApp?node-id=30%3A1282&t=fdjNVVv6yxp7pnNq-0",
   },
   {
     id: 4,
     thumbnail: appPermaseta,
     title: "App : Permaseta Organization App",
+    href: "https://www.figma.com/file/yGEuHERSAQ36vAxwtx5tQB/Porto---ManagementApp?node-id=30%3A1282&t=x2NZ7FdbLhackIGb-0",
   },
   {
     id: 5,
@@ -38,25 +42,25 @@ const portfolioList = [
 
 function ContentBlocks() {
   const portfolioCards = portfolioList.map((portfolioList) => (
-    <div
-      key={portfolioList.id}
-      class="h-fit hover:bg-transparent transition duration-200 ease-in-out dark:bg-black bg-transparent pb-1"
-    >
-      <img
-        class="pb-2 h-44 md:h-80 w-full object-cover object-center flex hover:scale-95  duration-200 ease-in-out rounded-2xl"
-        src={portfolioList.thumbnail}
-        alt="blog"
-      />
-      <a class="text-black dark:text-white ">{portfolioList.title}</a>
-    </div>
+    <a href={portfolioList.href}>
+      <div
+        key={portfolioList.id}
+        class="h-fit hover:bg-transparent transition duration-200 ease-in-out dark:bg-black bg-transparent pb-1"
+      >
+        <img
+          class="pb-2 h-44 md:h-80 w-full object-cover object-center flex hover:scale-95  duration-200 ease-in-out rounded-2xl"
+          src={portfolioList.thumbnail}
+          alt="blog"
+        />
+        <a class="text-black dark:text-white ">{portfolioList.title}</a>
+      </div>
+    </a>
   ));
 
   return (
-    <a href={portfolioList.href}>
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[4px] md:px-12 px-6 h-fit py-16 ">
-        {portfolioCards}
-      </div>
-    </a>
+    <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[4px] md:px-12 px-6 h-fit py-16 ">
+      {portfolioCards}
+    </div>
   );
 }
 
