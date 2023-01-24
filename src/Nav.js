@@ -7,14 +7,14 @@ import shadocodeLogoWhite from "./assets/shadocode-logo-white.png";
 function Nav() {
   return (
     <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[12px] fixed z-50 ">
-      <div className="items-center justify-self-start flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8 border-[1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
+      <div className="items-center justify-self-start flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
         <img
           src={shadocodeLogoBlack}
           className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
         ></img>
         <img
           src={shadocodeLogoWhite}
-          className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
+          className="md:max-w-[28px] max-w-[28px] md:mr-2  hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
         ></img>
         <a className="hidden md:block justify-self-start md:w-fit w-[54px]">
           welcome to
