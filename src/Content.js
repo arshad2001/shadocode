@@ -4,8 +4,6 @@ import auroraPic from "./assets/aurora.jpg";
 import ContentBlocks from "./ContentBlocks";
 import riperAll from "./assets/riperAll_porto.png";
 
-const ballin = [{ niggah: "riperAll" }];
-
 function Content(props) {
   return (
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
@@ -42,35 +40,7 @@ function Content(props) {
         </a>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-[1px] md:px-12 px-6 h-fit py-16">
-        <a
-          id="riperAll"
-          href="https://www.figma.com/file/52oBGEDAnr3j8hE49ABkw6/RiperAll---User-Testing?t=u3X7YQ3dnzVP0E0v-6"
-        >
-          {ballin.map(({ nuts }) => (
-            <ContentBlocks niggah={nuts} />
-          ))}
-          <ContentBlocks />
-        </a>
-        <a
-          id="websiteHimatekkom"
-          href="https://www.figma.com/file/rnaguP8MjMPi9KsEQMNb7Y/Website-Himatekkom---Convergence-team-library?t=u3X7YQ3dnzVP0E0v-6"
-        >
-          <ContentBlocks />
-        </a>
-        <a href="https://www.instagram.com/direct/t/340282366841710300949128218359528260178">
-          <ContentBlocks />
-        </a>
-        <a href="https://www.instagram.com/direct/t/340282366841710300949128218359528260178">
-          <ContentBlocks />
-        </a>
-        <a href="https://www.instagram.com/direct/t/340282366841710300949128218359528260178">
-          <ContentBlocks />
-        </a>
-        <a href="https://www.instagram.com/direct/t/340282366841710300949128218359528260178">
-          <ContentBlocks />
-        </a>
-      </div>
+      <ContentBlocks></ContentBlocks>
 
       <div
         id="segment-blank"

@@ -6,8 +6,8 @@ import shadocodeLogoWhite from "./assets/shadocode-logo-white.png";
 
 function Nav() {
   return (
-    <div className=" w-screen h-fit md:px-12 px-6 md:py-8 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[12px] fixed z-50 ">
-      <div className="items-center justify-self-start flex cursor-pointer dark:text-white text-black ">
+    <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[12px] fixed z-50 ">
+      <div className="items-center justify-self-start flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8 border-[1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
         <img
           src={shadocodeLogoBlack}
           className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
@@ -19,7 +19,7 @@ function Nav() {
         <a className="hidden md:block justify-self-start md:w-fit w-[54px]">
           welcome to
         </a>
-        <a className="hidden md:block md:ml-2 ml-0 justify-self-start font-semibold hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1 hover:underline underline-offset-2 transition duration-200 ease-in-out">
+        <a className="hidden md:block md:ml-2 ml-0 justify-self-start font-semibold  hover:underline underline-offset-2 transition duration-200 ease-in-out">
           shadocode
         </a>
       </div>
