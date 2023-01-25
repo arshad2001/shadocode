@@ -8,7 +8,6 @@ function changeBackground(e) {
   e.target.style.background = "red";
 }
 
-
 function Content(props) {
   return (
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
@@ -69,7 +68,7 @@ function Content(props) {
         id="segment-blank"
         className="w-screen min-h-[100vh] h-fit grid place-content-center"
       >
-        <a className="justify-self-center self-center text-teal-300 font-light absolute pt-[450px] text-[16px] z-0 ">
+        <a className="justify-self-center self-center text-teal-100 font-light absolute md:pt-[450px] pt-[260px] md:text-[16px] text-[10px] z-0 ">
           shadocode ver 1.0 | by <b>Arshad Tareeq Buchori</b>
         </a>
         <img
