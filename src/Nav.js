@@ -25,7 +25,7 @@ function Nav() {
       </div>
       <div className="justify-self-end">
         <ul className="h-full flex space-x-4 font-medium text-gray-500 ">
-          <li
+          {/* <li
             className="cursor-pointer hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1"
             src="./Work.js"
           >
@@ -39,7 +39,7 @@ function Nav() {
           </li>
           <li className="cursor-pointer hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1">
             hobby
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* <div className="justify-self-end block md:hidden hover:scale-110 transition duration-300 ease-in-out">

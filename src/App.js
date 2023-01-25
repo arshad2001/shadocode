@@ -8,7 +8,7 @@ import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   return (
-    <div className="white dark:bg-black">
+    <div className="white dark:bg-black dark:bg-opacity-95">
       <Nav />
       <Content />
     </div>

@@ -42,17 +42,19 @@ const portfolioList = [
 
 function ContentBlocks() {
   const portfolioCards = portfolioList.map((portfolioList) => (
-    <a href={portfolioList.href}>
+    <a href={portfolioList.href} target="_blank">
       <div
         key={portfolioList.id}
-        class="h-fit hover:bg-transparent transition duration-200 ease-in-out dark:bg-black bg-transparent pb-1"
+        class="h-fit hover:bg-transparent transition duration-200 ease-in-out dark:bg-black-opacity-95 bg-transparent pb-1"
       >
         <img
           class="pb-2 h-44 md:h-80 w-full object-cover object-center flex hover:scale-95  duration-200 ease-in-out rounded-2xl"
           src={portfolioList.thumbnail}
           alt="blog"
         />
-        <a class="text-black dark:text-white ">{portfolioList.title}</a>
+        <a class="text-black dark:text-white font-normal">
+          {portfolioList.title}
+        </a>
       </div>
     </a>
   ));
