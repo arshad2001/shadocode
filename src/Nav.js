@@ -6,11 +6,9 @@ import shadocodeLogoWhite from "./assets/shadocode-logo-white.png";
 
 function Nav() {
   return (
-    <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-center grid grid-cols-3 md:text-[16px] text-[12px] fixed z-50 ">
-      <a className="justify-self-start text-slate-400 font-extralight ">
-        
-      </a>
-      <div className="items-center justify-self-center flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[.1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
+    <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-center grid grid-cols-1 md:text-[16px] text-[12px] fixed z-50 ">
+      {/* <a className="justify-self-start text-slate-400 font-extralight "></a> */}
+      <div className=" items-center justify-self-center flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[.1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
         <img
           src={shadocodeLogoBlack}
           className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
@@ -19,7 +17,7 @@ function Nav() {
           src={shadocodeLogoWhite}
           className="md:max-w-[28px] max-w-[28px] md:mr-2  hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
         ></img>
-        <a className="hidden md:block justify-self-start md:w-fit w-[54px]">
+        <a className="hidden md:block justify-self-start md:w-fit w-[52px]">
           welcome to
         </a>
         <a className="hidden md:block md:ml-2 ml-0 justify-self-start font-semibold  underline-offset-2 transition duration-200 ease-in-out">
@@ -60,8 +58,8 @@ function Nav() {
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           />
         </svg>
-      </div> */}
-      {/* <div className="justify-self-end block md:hidden">
+      </div>
+      <div className="justify-self-end block md:hidden">
         <img
           src={shadocodeLogo}
           className="md:max-w-[28px] mr-2 max-w-[20px]"
