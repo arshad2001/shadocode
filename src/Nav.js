@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-center grid grid-cols-3 md:text-[16px] text-[12px] fixed z-50 ">
       <a className="justify-self-start text-slate-400 font-extralight ">
-        version 1.0
+        
       </a>
       <div className="items-center justify-self-center flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[.1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
         <img

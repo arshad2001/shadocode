@@ -4,6 +4,11 @@ import auroraPic from "./assets/aurora.jpg";
 import ContentBlocks from "./ContentBlocks";
 import riperAll from "./assets/riperAll_porto.png";
 
+function changeBackground(e) {
+  e.target.style.background = "red";
+}
+
+
 function Content(props) {
   return (
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
@@ -41,6 +46,9 @@ function Content(props) {
         id="segment-2"
         className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-center py-16 -mt-2"
       >
+        <div className="">
+          <button onMouseOver={changeBackground}>Hover over me!</button>
+        </div>
         <a className="md:text-[50px] text-[31px] text-black dark:text-white font-light">
           I am a <b>Muslim</b> 🕋 , <b>UI/UX</b> designer-enthusiast 🎨<br></br>
           & <b>frontend developer</b> 💻
@@ -61,9 +69,12 @@ function Content(props) {
         id="segment-blank"
         className="w-screen min-h-[100vh] h-fit grid place-content-center"
       >
+        <a className="justify-self-center self-center text-teal-300 font-light absolute pt-[450px] text-[16px] z-0 ">
+          shadocode ver 1.0 | by <b>Arshad Tareeq Buchori</b>
+        </a>
         <img
           src={auroraPic}
-          className="md:max-h-[480px] max-h-[300px] shadow-white transition duration-200 ease-in-out hover:rotate-3 md:my-0 my-4"
+          className="md:max-h-[480px] max-h-[300px] shadow-white transition duration-200 ease-in-out md:my-0 my-4m z-10 hover:-translate-y-[35px] hover:shadow-2xl hover:shadow-teal-300/70"
         ></img>
       </div>
     </div>
