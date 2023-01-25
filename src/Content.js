@@ -9,7 +9,7 @@ function Content(props) {
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
       <div
         id="segment-1"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-16 -mt-2"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-center py-16 -mt-2"
       >
         {/* <iframe
           width="560"
@@ -39,7 +39,7 @@ function Content(props) {
       </div>
       <div
         id="segment-2"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-start py-16 -mt-2"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-center py-16 -mt-2"
       >
         <a className="md:text-[50px] text-[31px] text-black dark:text-white font-light">
           I am a <b>Muslim</b> 🕋 , <b>UI/UX</b> designer-enthusiast 🎨<br></br>

@@ -6,8 +6,11 @@ import shadocodeLogoWhite from "./assets/shadocode-logo-white.png";
 
 function Nav() {
   return (
-    <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-cente grid grid-cols-2 md:text-[16px] text-[12px] fixed z-50 ">
-      <div className="items-center justify-self-start flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[.1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
+    <div className=" w-screen h-fit md:px-12 px-6 md:py-6 py-4 items-center justify-items-center grid grid-cols-3 md:text-[16px] text-[12px] fixed z-50 ">
+      <a className="justify-self-start text-slate-400 font-extralight ">
+        version 1.0
+      </a>
+      <div className="items-center justify-self-center flex cursor-pointer py-2 px-2 dark:text-white text-black backdrop-blur-sm border-spacing-8x border-[.1px] border-black hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-100">
         <img
           src={shadocodeLogoBlack}
           className="md:max-w-[28px] max-w-[28px] md:mr-2 mr-[4px] block dark:hidden hover:rotate-6 transition duration-300 ease-in-out"
@@ -24,8 +27,8 @@ function Nav() {
         </a>
       </div>
       <div className="justify-self-end">
-        <ul className="h-full flex space-x-4 font-medium text-gray-500 ">
-          {/* <li
+        {/* <ul className="h-full flex space-x-4 font-medium text-gray-500 ">
+          <li
             className="cursor-pointer hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1"
             src="./Work.js"
           >
@@ -39,8 +42,8 @@ function Nav() {
           </li>
           <li className="cursor-pointer hover:text-teal-400 dark:hover:text-teal-200 hover:translate-x-1">
             hobby
-          </li> */}
-        </ul>
+          </li>
+        </ul> */}
       </div>
       {/* <div className="justify-self-end block md:hidden hover:scale-110 transition duration-300 ease-in-out">
         <svg
