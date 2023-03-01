@@ -8,6 +8,11 @@ function changeBackground(e) {
   e.target.style.background = "red";
 }
 
+function myniggah(e) {
+  e.preventDefault();
+  console.log("u heb nice ass.");
+}
+
 function Content(props) {
   return (
     <div className=" w-screen min-h-[1440px] h-fit grid place-content-center">
@@ -53,16 +58,23 @@ function Content(props) {
           & <b>frontend developer</b> 💻
           <br></br>
           from the beloved <b>Indonesia</b> 💖👊
-        </a>
-      </div>
-      <div
-        id="segment-3"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-8 md:py-12 justify-center py-8"
-      >
-        <a className="md:text-[40px] text-[21px] text-black dark:text-white">
+          <br></br>
           and here are a few of my projects 👇👇👇
         </a>
       </div>
+      {/* <div
+        id="segment-3"
+        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-8 md:py-12 justify-center py-8"
+      >
+        <a className="dark:text-white"> nice ass </a>
+        <button
+          onClick={myniggah}
+          className="bg-white hover:bg-transparent hover:border-spacing-8x border-[.1px] border-white hover:text-white ease-in-out duration-200"
+        >
+          {" "}
+          button{" "}
+        </button>
+      </div> */}  
       <ContentBlocks />
       <div
         id="segment-blank"
