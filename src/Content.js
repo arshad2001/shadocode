@@ -28,9 +28,15 @@ function Content(props) {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe> */}
-        <a className="md:text-[50px] text-[31px] text-black dark:text-white font-light">
-          <b>Hi!</b> my name is Arshad Tareeq Buchori ✌😎<br></br>
-          but you can call me <b>Arshad</b>👍 <br></br>
+        <a className="md:text-[50px] text-[32px] text-black dark:text-white font-normal">
+          Howdy! my name is <b>Arshad</b> ✌😎<br></br>
+          <p>
+            <em class="font-semibold">welcome to . . .</em>
+          </p>
+          <h1 class="text-[140px]"> SHADOCODE</h1>
+          {/* <em class="text-[48px] font-bold">
+            but you can call me anytime baby ~
+          </em> */}
           {/* I am a <b>Muslim</b> 🕋 ,{" "}
           <b>UI/UX</b> designer-enthusiast 🎨<br></br>&{" "}
           <b>frontend developer</b> 💻
@@ -38,29 +44,35 @@ function Content(props) {
           from the beloved <b>Indonesia</b> 💖👊 */}
         </a>
         <a
-          className="md:text-[31px] text-[21px] text-black dark:text-white hover:text-teal-300 w-fit font-light"
+          className="md:text-[18px] text-[12px] text-black dark:text-white hover:text-teal-300 w-fit font-light"
           href="https://drive.google.com/drive/folders/10c60Na-1jVS0SIjt0GgHOpjNSxjG6Kz0?usp=share_link"
           target="_blank"
         >
-          <br></br>👉 If u're in a hurry here's my <b>CV</b> and{" "}
-          <b>Portfolio!</b>
+          <br></br>btw ... 👉 (If u're in a hurry here's my <b>CV</b> and{" "}
+          <b>Portfolio!</b> )
         </a>
       </div>
       <div
         id="segment-2"
-        className="w-screen min-h-[100vh] h-fit grid place-content-center md:px-12 px-6 justify-center py-16 -mt-2"
+        className="w-screen min-h-[100vh] h-fit place-content-center md:px-12 px-6 justify-center py-16 -mt-2 flex gap-8"
       >
-        <div className="">
-          <button onMouseOver={changeBackground}>Hover over me!</button>
+        {/* <div className="">
+            <button onMouseOver={changeBackground}>Hover over me!</button>
+          </div> */}
+        <div class="w-[300px] h-[300px] bg-white"></div>
+        <div>
+          <a className="md:text-[50px] text-[31px] text-black dark:text-white font-light">
+            I am a <b>Muslim</b> 🕋 , <b>UI/UX</b> designer-enthusiast 🎨
+            <br></br>& <b>frontend developer</b> 💻
+            <br></br>
+            based on <b>Indonesia</b> 💖👊
+            <br></br>
+            <u>
+              <em class="font-bold">and here are a few of my projects</em>
+            </u>{" "}
+            👇👇👇
+          </a>
         </div>
-        <a className="md:text-[50px] text-[31px] text-black dark:text-white font-light">
-          I am a <b>Muslim</b> 🕋 , <b>UI/UX</b> designer-enthusiast 🎨<br></br>
-          & <b>frontend developer</b> 💻
-          <br></br>
-          from the beloved <b>Indonesia</b> 💖👊
-          <br></br>
-          and here are a few of my projects 👇👇👇
-        </a>
       </div>
       {/* <div
         id="segment-3"
@@ -74,19 +86,23 @@ function Content(props) {
           {" "}
           button{" "}
         </button>
-      </div> */}  
+      </div> */}
       <ContentBlocks />
-      <div
+      {/* <div
         id="segment-blank"
         className="w-screen min-h-[100vh] h-fit grid place-content-center"
       >
         <a className="justify-self-center self-center text-teal-100 font-light absolute md:pt-[450px] pt-[260px] md:text-[16px] text-[10px] z-0 ">
-          shadocode ver 1.0 | by <b>Arshad Tareeq Buchori</b>
+          shadocode ver 1.0 | by Arshad Tareeq Buchori
         </a>
         <img
           src={auroraPic}
           className="md:max-h-[480px] max-h-[300px] shadow-white transition duration-200 ease-in-out md:my-0 my-4m z-10 hover:-translate-y-[35px] hover:shadow-2xl hover:shadow-teal-300/70"
         ></img>
+      </div> */}
+
+      <div className="w-screen min-h-[100vh] h-fit grid place-content-center">
+        
       </div>
     </div>
   );

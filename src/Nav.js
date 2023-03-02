@@ -17,12 +17,12 @@ function Nav() {
           src={shadocodeLogoWhite}
           className="md:max-w-[28px] max-w-[28px] md:mr-2  hidden dark:block hover:rotate-6  transition duration-200 ease-in-out"
         ></img>
-        <a className="hidden md:block justify-self-start md:w-fit w-[52px]">
+        <a className="hidden md:block justify-self-start md:w-fit w-[52px] font-bold">
           welcome to
         </a>
-        <a className="hidden md:block md:ml-2 ml-0 justify-self-start font-semibold  underline-offset-2 transition duration-200 ease-in-out">
+        <h1 className="hidden md:block md:ml-2 ml-0 justify-self-start font-normal  underline-offset-2 transition duration-200 ease-in-out">
           shadocode
-        </a>
+        </h1>
       </div>
       <div className="justify-self-end">
         {/* <ul className="h-full flex space-x-4 font-medium text-gray-500 ">

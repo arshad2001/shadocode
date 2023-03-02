@@ -6,24 +6,37 @@ import appLabB201 from "./assets/labB201_porto.png";
 import appPermaseta from "./assets/noImage.jpeg";
 import appJahitId from "./assets/noImage.jpeg";
 
+function changeBackground(e) {
+  e.target.style.background = "white";
+}
+
 const portfolioList = [
   {
     id: 1,
     thumbnail: riperAll,
-    title: "UI/UX : RiperAll",
+    title: "RiperAll",
+    type: "UI/UX",
+    desc: "Design Showcase for an all in one gadget reparation marketplace for the cities of Surabaya and Jakarta.",
+    stack: "Figma, ChatGPT",
     href: "https://www.figma.com/file/52oBGEDAnr3j8hE49ABkw6/RiperAll---User-Testing?t=ZEXls2uAT0WcUEXV-6",
   },
 
   {
     id: 2,
     thumbnail: webHimatekkom,
-    title: "Web : Himatekkom Organization Website",
+    title: "Himatekkom",
+    type: "Website",
+    desc: "Design Showcase, and React based Website for Computer Engineering Student Commitee of FTEIC ITS.",
+    stack: "Figma, HTML, TailwindCSS, ReactJS",
     href: "https://www.figma.com/file/rnaguP8MjMPi9KsEQMNb7Y/Website-Himatekkom---Convergence-team-library?node-id=526%3A1197&t=KiB94Yv3e1vHeYKe-0",
   },
   {
     id: 3,
     thumbnail: appLabB201,
-    title: "App : Lab B201 Practicum App",
+    title: "B201",
+    type: "Mobile App",
+    desc: "Design Showcase for an all in one management app for B201 Laboratory of Computer Engineering FTEIC ITS.",
+    stack: "Figma, Flutter",
     href: "https://www.figma.com/file/yGEuHERSAQ36vAxwtx5tQB/Porto---ManagementApp?node-id=30%3A1282&t=fdjNVVv6yxp7pnNq-0",
   },
   // {
@@ -45,11 +58,11 @@ function ContentBlocks() {
     <a href={portfolioList.href} target="_blank">
       <div
         key={portfolioList.id}
-        class="h-fit transition duration-200 ease-in-out dark:bg-black-opacity-95 pb-1 flex p-4"
+        class="h-fit transition duration-200 ease-in-out dark:bg-black-opacity-95 pb-1 p-4 flex  justify-center"
       >
         <div className="">
           <img
-            class="pb-2 h-[300px] md:h-[800px] w-full object-cover object-center flex  duration-200 ease-in-out "
+            class="pb-2 h-[300px] md:h-[650px] w-[300px] md:w-[800px] object-cover object-center flex  duration-200 ease-in-out "
             src={portfolioList.thumbnail}
             alt="blog"
           />
@@ -57,21 +70,24 @@ function ContentBlocks() {
             {portfolioList.title}
           </a> */}
         </div>
-        <div class="text-white px-8 flex flex-col gap-8 w-[1000px]">
-          <p className="text-[48px] font-normal">Project Title</p>
+        <div class="px-8 flex flex-col gap-8 max-w-[900px] max-h-full text-black dark:text-white">
+          <div class="flex flex-wrap flex-row items-baseline gap-8 text-[60px]">
+            <h1 class="font-light">
+              <em> {portfolioList.title}</em>
+            </h1>
+            <a class="font-bold text-[48px]">
+              <em> ( {portfolioList.type} )</em>
+            </a>
+          </div>
           <p className="text-[32px] font-normal">Project Description</p>
-          <p className="text-[24px] font-thin">
-            Commodo magna ut officia irure aliqua id eu nulla eu elit incididunt
-            ipsum sint. Qui ullamco irure dolore mollit quis anim aliquip magna
-            in ad deserunt commodo occaecat. Voluptate esse nostrud nisi nisi
-            duis excepteur enim et fugiat ad dolor non aliqua.
+          <p className="text-[24px] font-thin">{portfolioList.desc}</p>
+          <p className="text-[32px] font-normal">Tech Stack</p>
+          <p className="text-[24px] font-bold">
+            <em>{portfolioList.stack}</em>
           </p>
-          <p className="text-[32px] font-normal">Project Tech Stack</p>
-          <ul className="text-[24px] font-normal">
-            <li>Figma</li>
-            <li>Tailwind</li>
-            <li>Chatgpt</li>
-          </ul>
+          <div>
+            <button>more</button>
+          </div>
         </div>
       </div>
     </a>

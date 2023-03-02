@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Ubuntu;
+    }
+}
 
 .App {
   text-align: center;
@@ -20,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e323a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,5 +54,5 @@
 }
 
 Content:nth-child(2) {
-  background-color: black;
+  background-color: #2e323a;
 }
