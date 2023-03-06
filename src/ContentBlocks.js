@@ -58,9 +58,9 @@ function ContentBlocks() {
     <a href={portfolioList.href} target="_blank">
       <div
         key={portfolioList.id}
-        class="h-fit transition duration-200 ease-in-out dark:bg-black-opacity-95 pb-1 p-4 flex  justify-center"
+        class="h-fit transition duration-200 ease-in-out dark:bg-black-opacity-95 p-4 flex justify-center"
       >
-        <div className="">
+        <div id="images?">
           <img
             class="pb-2 h-[300px] md:h-[650px] w-[300px] md:w-[800px] object-cover object-center flex  duration-200 ease-in-out "
             src={portfolioList.thumbnail}

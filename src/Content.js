@@ -54,7 +54,7 @@ function Content(props) {
       </div>
       <div
         id="segment-2"
-        className="w-screen min-h-[100vh] h-fit place-content-center md:px-12 px-6 justify-center py-16 -mt-2 flex gap-8"
+        className="w-screen min-h-[100vh] h-fit items-center md:px-12 px-6 justify-center py-16 flex gap-8"
       >
         {/* <div className="">
             <button onMouseOver={changeBackground}>Hover over me!</button>
@@ -101,9 +101,9 @@ function Content(props) {
         ></img>
       </div> */}
 
-      <div className="w-screen min-h-[100vh] h-fit grid place-content-center">
+      {/* <div className="w-screen min-h-[100vh] h-fit grid place-content-center">
         
-      </div>
+      </div> */}
     </div>
   );
 }
